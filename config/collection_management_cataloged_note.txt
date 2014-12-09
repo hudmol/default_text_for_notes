@@ -1,4 +1,4 @@
-BIB No:
-Vin Id:
-Moo:
-Another line:
+VN (Bib):
+VN (Hld):
+Cataloguer:
+Note for Cataloguer:
