@@ -1,0 +1,11 @@
+$(function() {
+  var initCMForm = function(subform) {
+    $("textarea[id$='_collection_management__cataloged_note_']").val("<%= AppConfig[:default_text_for_notes__cm_cataloged_note] %>");
+  };
+
+  $(document).bind("subrecordcreated.aspace", function(event, object_name, subform) {
+    if (object_name === "collection_management") {
+      initCMForm($(subform));
+    }
+  });
+});
