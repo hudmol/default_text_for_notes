@@ -1,0 +1,10 @@
+version: 0.1
+archivesspace_target_version: 1.1.x
+release_date: 20141209
+description: Set default text for selected notes fields
+dependencies:
+migration: false
+tests: false
+distribution: https://github.com/hudmol/default_text_for_notes/releases/download/v1.1.x-0.1/default_text_for_notes-v0.1.zip
+homepage: https://github.com/hudmol/default_text_for_notes
+contact: james@hudmol.com
