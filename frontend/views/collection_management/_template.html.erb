@@ -17,5 +17,8 @@
 <% end %>
 
 <%# PLUGIN STARTS HERE %>
+<script>
+  var $DEFAULT_TEXT_FOR_NOTES__CM_CATALOGED_NOTE = "<%= AppConfig[:default_text_for_notes__cm_cataloged_note] %>"
+</script>
 <script src="<%= "#{AppConfig[:frontend_prefix]}assets/collection_management.new.js" %>"></script>
 <%# PLUGIN ENDS HERE %>

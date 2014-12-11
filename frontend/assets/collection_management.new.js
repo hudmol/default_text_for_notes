@@ -1,6 +1,6 @@
 $(function() {
   var initCMForm = function(subform) {
-    $("textarea[id$='_collection_management__cataloged_note_']").val("<%= AppConfig[:default_text_for_notes__cm_cataloged_note] %>");
+    $("textarea[id$='_collection_management__cataloged_note_']").val($DEFAULT_TEXT_FOR_NOTES__CM_CATALOGED_NOTE);
   };
 
   $(document).bind("subrecordcreated.aspace", function(event, object_name, subform) {
