@@ -1,3 +1,5 @@
+-- Delete all conditions which do not apply (and this comment).--
+
 Available for research.  Not for loan.
 Permission required for research.  Not for loan.
 Not available for research.  Not for loan.
