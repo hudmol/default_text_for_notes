@@ -1,0 +1,5 @@
+Available for research.  Not for loan.
+Permission required for research.  Not for loan.
+Not available for research.  Not for loan.
+Part available for research (Boxes X-X); part requires permission for research until YYYY (Boxes X-X).  Not for loan.
+Part available for research (Boxes X-X); part not available for research until YYYY (Boxes X-X).  Not for loan.
