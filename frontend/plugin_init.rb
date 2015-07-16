@@ -2,7 +2,6 @@
  'accession_general_note',
  'accession_retention_rule',
  'accession_use_restrictions_note',
- 'collection_management_cataloged_note',
  'rights_statement_permissions',
  'rights_statement_restrictions'].each do |field|
 
