@@ -49,9 +49,6 @@ Supported fields are:
   - Permissions
   - Restrictions
 
-- Collection Management
-  - Cataloged Note
-
 The text for each field is specified in a file in the config directory.
 The file is named after the fields it applied to, for example:
 
