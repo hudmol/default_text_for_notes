@@ -92,8 +92,8 @@
 
 <%# PLUGIN STARTS HERE %>
 <script>
-  var DEFAULT_TEXT_FOR_NOTES__RIGHTS_STATEMENT_PERMISSIONS = "<%= AppConfig[:default_text_for_notes__rights_statement_permissions] %>"
-  var DEFAULT_TEXT_FOR_NOTES__RIGHTS_STATEMENT_RESTRICTIONS = "<%= AppConfig[:default_text_for_notes__rights_statement_restrictions] %>"
+  var DEFAULT_TEXT_FOR_NOTES__RIGHTS_STATEMENT_PERMISSIONS = "<%= AppConfig[:default_text_for_notes__rights_statement_permissions].html_safe %>"
+  var DEFAULT_TEXT_FOR_NOTES__RIGHTS_STATEMENT_RESTRICTIONS = "<%= AppConfig[:default_text_for_notes__rights_statement_restrictions].html_safe %>"
 </script>
 <script src="<%= "#{AppConfig[:frontend_prefix]}assets/setup_textarea.js" %>"></script>
 <script src="<%= "#{AppConfig[:frontend_prefix]}assets/rights_statement.new.js" %>"></script>

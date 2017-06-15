@@ -21,10 +21,10 @@
 
 <%# PLUGIN STARTS HERE %>
 <script>
-  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_ACCESS_RESTRICTIONS_NOTE = "<%= AppConfig[:default_text_for_notes__accession_access_restrictions_note] %>"
-  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_GENERAL_NOTE = "<%= AppConfig[:default_text_for_notes__accession_general_note] %>"
-  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_RETENTION_RULE = "<%= AppConfig[:default_text_for_notes__accession_retention_rule] %>"
-  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_USE_RESTRICTIONS_NOTE = "<%= AppConfig[:default_text_for_notes__accession_use_restrictions_note] %>"
+  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_ACCESS_RESTRICTIONS_NOTE = "<%= AppConfig[:default_text_for_notes__accession_access_restrictions_note].html_safe %>"
+  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_GENERAL_NOTE = "<%= AppConfig[:default_text_for_notes__accession_general_note].html_safe %>"
+  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_RETENTION_RULE = "<%= AppConfig[:default_text_for_notes__accession_retention_rule].html_safe %>"
+  var DEFAULT_TEXT_FOR_NOTES__ACCESSION_USE_RESTRICTIONS_NOTE = "<%= AppConfig[:default_text_for_notes__accession_use_restrictions_note].html_safe %>"
 </script>
 <script src="<%= "#{AppConfig[:frontend_prefix]}assets/setup_textarea.js" %>"></script>
 <script src="<%= "#{AppConfig[:frontend_prefix]}assets/accession.new.js" %>"></script>
